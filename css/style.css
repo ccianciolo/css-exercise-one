@@ -1,36 +1,48 @@
-body
+body  {
   font-size: 14px;
 }
+/*Begin NAV element
+Nav includes info on background-color (yellow), height of element (100px),
+top margin -10, position (fixed) and width percentage (100%).*/
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/* Begin section  */
 section {
+  /*Margin 0 and auto alignment, width (60%)  */
   margin: 0 auto;
   width: 60%;
 }
-
-h1 {
-  font-family sans-serif;
+/* h1.example specifies font-family and size of 2em  */
+h1.example {
+  font-family: sans-serif;
   font-size: 2em;
 }
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
+/*removed h3.example tag because it doesn't exist within the index.html code.
+h3 tag specifies font size of 1.3em and padding at the top of 30px and
+centers the text */
 h3 {
   font-size: 1.3em;
+  padding-top: 30px;
+  text-align: center;
+  height: 100px;
+  margin: 10px ;
+  width: 100%;
 }
-
+/*div.element tag specifies background color of green, height of 100px
+margin of 10px, and width of 100% of the section (which is 60%)  */
 .element {
   background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
+
+}
+/*div.lastThree added to change color of the   last three sections to blue
+retaining values of above*/
+.lastThree {
+  background-color: blue;
+  
+}
